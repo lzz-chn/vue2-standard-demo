@@ -1,24 +1,14 @@
-# vue2-eslint-prettier-commitlint
+# vue2-standard-demo
 
-## Project setup
-```
-npm install
-```
+基于 vue2.x 版本的标准化工程模板
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### lint 参考
+-  [eslint/recommended](https://eslint.org/docs/rules/)
+- [vue/recommended](https://eslint.vuejs.org/rules/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### commit 参考
+- [conventional commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### release 参考
+- [semver](https://semver.org/lang/zh-CN/)
+- [standard-version](https://github.com/conventional-changelog/standard-version#readme)
