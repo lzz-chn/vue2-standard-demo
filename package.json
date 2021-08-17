@@ -11,14 +11,14 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.16.1",
     "dayjs": "^1.10.6",
     "klona": "^2.0.4",
     "mqtt": "^4.2.8",
-    "nanoid": "^3.1.23",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "nanoid": "^3.1.25",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
@@ -33,17 +33,19 @@
     "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.2.4",
-    "eslint": "^6.7.2",
-    "eslint-plugin-prettier": "^3.3.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^7.0.1",
-    "less": "^3.0.4",
-    "less-loader": "^5.0.0",
+    "less": "^3.13.1",
+    "less-loader": "^6.2.0",
     "lint-staged": "^9.5.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.2",
+    "sass": "1.38.0",
+    "sass-loader": "^8.0.2",
     "standard-version": "^9.3.1",
     "vue-cli-plugin-axios": "^0.0.4",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.14"
   },
   "config": {
     "commitizen": {
