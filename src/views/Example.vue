@@ -17,6 +17,10 @@ export default {
     async httpRequest() {
       let res = await login({ username: 'username', password: 'password' })
       console.log('res :>> ', res)
+      // 无请求异常消息通知
+      await login({ username: 'username', password: 'password' }, { message: false })
+      // 无token
+      await login({ username: 'username', password: 'password' }, { token: false })
     },
     // 发送mqtt消息
     sendMqttMessage(topic, msg) {
